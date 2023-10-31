@@ -21,3 +21,7 @@ Directus:
     Backup your project
     Run npm update
     Run npx directus database migrate:latest to update the DB
+
+
+    Start
+    npx directus start
