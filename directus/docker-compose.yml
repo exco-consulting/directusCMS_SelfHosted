@@ -1,0 +1,23 @@
+version: "3"
+services:
+  directus:
+    image: directus/directus:10.8.3
+    ports:
+      - 8055:8055
+    environment:
+      KEY: "Test123!"
+      SECRET: "Test123!secret"
+      ADMIN_EMAIL: "admin@example.com"
+      ADMIN_PASSWORD: "d1r3ctu5"
+      DB_CLIENT: "pg"
+      DB_HOST: "db.zuqurynatldyjgwvdqxt.supabase.co"
+      DB_PORT: "5432"
+      DB_DATABASE: "postgres"
+      DB_USER: "postgres"
+      DB_PASSWORD: "WTbJ0v9AXJbgQPjo"
+      DB_SSL: "false"
+
+      CACHE_ENABLED: "true"
+      REDIS: "redis://default:bddf0481358445f28989b0ae7fc0f954@eu2-key-tortoise-30185.upstash.io:30185"
+
+      PUBLIC_URL: "/"
