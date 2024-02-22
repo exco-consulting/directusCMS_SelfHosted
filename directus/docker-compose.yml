@@ -1,7 +1,7 @@
-version: "3"
+version: "3.3"
 services:
   directus:
-    image: directus/directus:10.8.3
+    image: directus/directus:latest
     ports:
       - 8055:8055
     environment:
@@ -17,7 +17,5 @@ services:
       DB_PASSWORD: "WTbJ0v9AXJbgQPjo"
       DB_SSL: "false"
 
-      CACHE_ENABLED: "true"
-      REDIS: "redis://default:bddf0481358445f28989b0ae7fc0f954@eu2-key-tortoise-30185.upstash.io:30185"
-
+    
       PUBLIC_URL: "/"
