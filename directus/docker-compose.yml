@@ -16,6 +16,4 @@ services:
       DB_USER: "postgres.zuqurynatldyjgwvdqxt"
       DB_PASSWORD: "WTbJ0v9AXJbgQPjo"
       DB_SSL: "false"
-
-    
       PUBLIC_URL: "/"
